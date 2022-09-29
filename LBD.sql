@@ -356,4 +356,4 @@ FROM tb_item i
 LEFT OUTER JOIN tb_estoque e
 	ON(i.id_item = e.id_item AND e.quantidade >2)
 WHERE i.preco_custo > 5::NUMERIC(5,2);
-
+ 
